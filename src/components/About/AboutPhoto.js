@@ -1,4 +1,3 @@
-import ProfileJpg from "../../assets/images/xalone profile 2.png";
 
 const AboutPhoto = () => {
   return (

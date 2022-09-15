@@ -1,4 +1,4 @@
-import profile from "../../assets/images/xalone profile.png";
+
 import { MdEmail } from "react-icons/md";
 import { AiFillPhone } from "react-icons/ai";
 import { SiGooglemaps } from "react-icons/si";

@@ -6,7 +6,6 @@ import { useState } from "react";
 import { FaDiscord } from "react-icons/fa";
 import { AiFillInstagram , AiFillGithub} from "react-icons/ai";
 import { SiCodechef, SiHackerrank , SiLinkedin } from "react-icons/si";
-import { ImSoundcloud } from "react-icons/im";
 
 const Navbar = () => {
   const [nav, setNav] = useState("bg-transparent");
