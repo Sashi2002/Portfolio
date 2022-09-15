@@ -1,0 +1,22 @@
+.animation1 {
+  display: inline-block;
+  position: relative;
+}
+
+.animation1:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  transform: scaleX(0);
+  height: 2px;
+  bottom: -5px;
+  left: 0;
+  background-color: #e8ffff;
+  transform-origin: bottom right;
+  transition: transform 0.3s ease-out;
+}
+
+.animation1:hover:after {
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
