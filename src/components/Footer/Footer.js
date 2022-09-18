@@ -25,7 +25,7 @@ const Footer = () => {
           className="pr-4 md:pr-0"
           icon={Gmail}
           name="Gmail"
-          href="mailto:sashikantamohanty019@gmail.com"
+          href="mailto:sonumohanty077@gmail.com"
         />
         
       </ul>
