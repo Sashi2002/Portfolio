@@ -3,10 +3,7 @@ import FooterSocial from "./FooterSocial";
 // icons import
 import Discord from "../../assets/svg/discord.svg";
 import Instagram from "../../assets/svg/instagram.svg";
-import spotify from "../../assets/svg/spotify.svg";
 import Gmail from "../../assets/svg/gmail.svg";
-import Soundcloud from "../../assets/svg/soundcloud.svg";
-import { SiPolywork } from "react-icons/si";
 
 const Footer = () => {
   return (
@@ -21,39 +18,16 @@ const Footer = () => {
           className="pl-6 md:pl-0"
           icon={Instagram}
           name="Instagram"
-          href="https://www.instagram.com/xalone153/"
+          href="https://www.instagram.com/sashikant.mohanty/"
         />
-        <FooterSocial
-          className="pr-2 md:pr-0"
-          icon={spotify}
-          name="Spotify"
-          href="https://open.spotify.com/user/wt082rqavs34vnpov07868win"
-        />
+        
         <FooterSocial
           className="pr-4 md:pr-0"
           icon={Gmail}
           name="Gmail"
-          href="mailto:xalonemusic153@gmail.com"
+          href="mailto:sashikantamohanty019@gmail.com"
         />
-        <FooterSocial
-          className="pl-9 md:pl-0"
-          icon={Soundcloud}
-          name="SoundCloud"
-          href="https://soundcloud.com/xalone0153"
-        />
-        <li className="text-lightest text-lg mb-3 md:mb-0 mt-3 md:mt-0">
-          <a
-            href="https://www.polywork.com/xalone"
-            className="flex"
-            target="_blank"
-            rel="noreferrer"
-          >
-            <span className="pr-2 pt-2 ">
-              <SiPolywork />
-            </span>
-            Polywork
-          </a>
-        </li>
+        
       </ul>
     </div>
   );

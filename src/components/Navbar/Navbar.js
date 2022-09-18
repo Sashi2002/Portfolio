@@ -73,7 +73,7 @@ const Navbar = () => {
       className={"flex justify-between fixed z-10 w-full text-lightest " + nav}
     >
       <span className="p-4">
-        <NavbarLinks to="Section1" data="Sashikant" logo={true} />
+        <NavbarLinks to="Section1" data="" logo={true} />
       </span>
       {window.innerWidth < 570 ? responsiveLinks : links}
     </div>
